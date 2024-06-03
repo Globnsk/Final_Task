@@ -7,7 +7,6 @@ E:\Users\Глотов\МОЕ\GeekBrains\ProgFiles\01_CSHARP\Final_Task\obj\Debug
 E:\Users\Глотов\МОЕ\GeekBrains\ProgFiles\01_CSHARP\Final_Task\obj\Debug\net8.0\Final_Task.AssemblyInfoInputs.cache
 E:\Users\Глотов\МОЕ\GeekBrains\ProgFiles\01_CSHARP\Final_Task\obj\Debug\net8.0\Final_Task.AssemblyInfo.cs
 E:\Users\Глотов\МОЕ\GeekBrains\ProgFiles\01_CSHARP\Final_Task\obj\Debug\net8.0\Final_Task.csproj.CoreCompileInputs.cache
-E:\Users\Глотов\МОЕ\GeekBrains\ProgFiles\01_CSHARP\Final_Task\obj\Debug\net8.0\Final_Task.sourcelink.json
 E:\Users\Глотов\МОЕ\GeekBrains\ProgFiles\01_CSHARP\Final_Task\obj\Debug\net8.0\Final_Task.dll
 E:\Users\Глотов\МОЕ\GeekBrains\ProgFiles\01_CSHARP\Final_Task\obj\Debug\net8.0\refint\Final_Task.dll
 E:\Users\Глотов\МОЕ\GeekBrains\ProgFiles\01_CSHARP\Final_Task\obj\Debug\net8.0\Final_Task.pdb
