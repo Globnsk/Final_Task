@@ -1,10 +1,10 @@
-﻿// 1  Создаем ввод с консоли элементов массива
-// 1.1 Вводим количество элементов массива
+﻿//1  Создаем ввод с консоли элементов массива
+//1.1 Вводим количество элементов массива
 Console.WriteLine("Введите количество элементов массива");
 string k = Console.ReadLine();
 int num_elms = Convert.ToInt32(k);
 
-// 1.2 Вводим количество символов в элементе финального массива
+//1.2 Вводим количество символов в элементе финального массива
 Console.WriteLine("Введите количество символов в элементе финального массива");
 string m = Console.ReadLine();
 int char_nums = Convert.ToInt32(m);
@@ -39,7 +39,12 @@ for (i = 0; i < count; i++)
     if (arr_str[i].Length == char_nums)
     {
         arr_fnl[j] = arr_str[i];
-        Console.Write($"{arr_fnl[j]}  ");
         j += 1;
     }
 }
+Console.Write("[");
+Console.Write(string.Join(", ", arr_str));
+Console.Write("] => ");
+Console.Write("[");
+Console.Write(string.Join(", ", arr_fnl));
+Console.Write("]");
