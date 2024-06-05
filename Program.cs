@@ -1,12 +1,12 @@
 //1  Создаем ввод с консоли элементов массива
 //1.1 Вводим количество элементов массива
 Console.WriteLine("Введите количество элементов массива");
-string k = Console.ReadLine();
+string k = Console.ReadLine()!;
 int num_elms = Convert.ToInt32(k);
 
 //1.2 Вводим количество символов в элементе финального массива
 Console.WriteLine("Введите количество символов в элементе финального массива");
-string m = Console.ReadLine();
+string m = Console.ReadLine()!;
 int char_nums = Convert.ToInt32(m);
 
 // 1.3 Создаем пустой str массив и заполняем его значениями
@@ -15,7 +15,7 @@ int i = 0;
 while (i < num_elms)
 {
     Console.WriteLine("Введите  " + (i + 1) + "-й элемент массива");
-    arr_str[i] = Console.ReadLine();
+    arr_str[i] = Console.ReadLine()!;
     i += 1;
 }
 
