@@ -1,5 +1,7 @@
 ﻿// 1  Создаем ввод с консоли элементов массива
 // 1.1 Вводим количество элементов массива
+using Microsoft.VisualBasic;
+
 Console.WriteLine("Введите количество элементов массива");
 string k = Console.ReadLine();
 int num_elms = Convert.ToInt32(k);
@@ -42,4 +44,9 @@ for (i = 0; i < count; i++)
         j += 1;
     }
 }
-Console.Write(String.Join(" ", arr_fnl));
+Console.Write("["+ '"');
+Console.Write(string.Join('"' + ", "+ '"' , arr_str));
+Console.Write('"'+"] => ");
+Console.Write("["+ '"');
+Console.Write(string.Join('"' + ", "+ '"' , arr_fnl));
+Console.Write('"'+"]");
