@@ -1,4 +1,4 @@
-﻿//1  Создаем ввод с консоли элементов массива
+//1  Создаем ввод с консоли элементов массива
 //1.1 Вводим количество элементов массива
 Console.WriteLine("Введите количество элементов массива");
 string k = Console.ReadLine();
@@ -42,9 +42,9 @@ for (i = 0; i < count; i++)
         j += 1;
     }
 }
-Console.Write("[");
-Console.Write(string.Join(", ", arr_str));
-Console.Write("] => ");
-Console.Write("[");
-Console.Write(string.Join(", ", arr_fnl));
-Console.Write("]");
+Console.Write("["+ '"');
+Console.Write(string.Join('"' + ", "+ '"' , arr_str));
+Console.Write('"'+"] => ");
+Console.Write("["+ '"');
+Console.Write(string.Join('"' + ", "+ '"' , arr_fnl));
+Console.Write('"'+"]");
