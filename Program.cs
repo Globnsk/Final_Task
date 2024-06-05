@@ -39,7 +39,7 @@ for (i = 0; i < count; i++)
     if (arr_str[i].Length == char_nums)
     {
         arr_fnl[j] = arr_str[i];
-        Console.Write($"{arr_fnl[j]}  ");
         j += 1;
     }
 }
+Console.Write(String.Join(" ", arr_fnl));
