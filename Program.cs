@@ -25,7 +25,7 @@ while (i < num_elms)
 int count = 0;
 for (i = 0; i < num_elms; i++)
 {
-    if (arr_str[i].Length == char_nums)
+    if (arr_str[i].Length <= char_nums)
     {
         count++;
     }
@@ -34,9 +34,9 @@ for (i = 0; i < num_elms; i++)
 //2.2 Заполняем финальный массив элементами исходного массива нужной длины  и выводим на экран элементы финального массива
 string[] arr_fnl = new string[count];
 int j = 0;
-for (i = 0; i < count; i++)
+for (i = 0; i < num_elms; i++)
 {
-    if (arr_str[i].Length == char_nums)
+    if (arr_str[i].Length <=char_nums)
     {
         arr_fnl[j] = arr_str[i];
         j += 1;
