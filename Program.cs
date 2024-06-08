@@ -5,7 +5,7 @@ string k = Console.ReadLine()!;
 int num_elms = Convert.ToInt32(k);
 
 //1.2 Вводим количество символов в элементе финального массива
-Console.WriteLine("Введите количество символов в элементе финального массива");
+Console.WriteLine("Введите максимальное количество символов в элементе финального массива");
 string m = Console.ReadLine()!;
 int char_nums = Convert.ToInt32(m);
 
